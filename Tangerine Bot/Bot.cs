@@ -58,7 +58,7 @@ namespace Tangerine_Bot
 
         private Task OnClientReady(ReadyEventArgs e) 
         {
-            return null;
+            return Task.CompletedTask;
         }
     }
 }
