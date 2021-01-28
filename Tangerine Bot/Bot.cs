@@ -53,7 +53,7 @@ namespace Tangerine_Bot
 
             await Client.ConnectAsync();
 
-            await Task.Delay(1);
+            await Task.Delay(-1);
         }
 
         private Task OnClientReady(ReadyEventArgs e) 
