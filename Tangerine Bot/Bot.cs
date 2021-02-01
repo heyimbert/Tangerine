@@ -47,6 +47,7 @@ namespace Tangerine_Bot
                 StringPrefix = configJson.Prefix,
                 EnableMentionPrefix = true,
                 EnableDms = false,
+                CaseSensitive = false,
             };
             
             var Commands = Client.UseCommandsNext(commandsConfig);
